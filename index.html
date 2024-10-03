@@ -11,7 +11,7 @@
 </head>
 <body>
     <main>
-        <h1>Marcador de Pontuação Magic: The Gathering</h1>
+        <h1>Marcador de Pontuação <span id="namemagic">Magic: The Gathering</span></h1>
         <section id="area-marcador">
             <section id="img-marcador">
                 <img src="magic.jpeg" alt="Logo Magic: The Gathering">
@@ -19,7 +19,14 @@
             <section id="marcador">
                 <p id="placar">0 a 0</p>
                 <label for="pontuacao">Escolha a Pontuação Vitoriosa</label>
-                <input type="number" id="pontuacao">
+                <select name="select-pontuacao" id="pontuacao">
+                    <option value="fivepoints">5</option>
+                    <option value="tenpoints">10</option>
+                    <option value="fifteenpoins">15</option>
+                    <option value="twentypoints">20</option>
+                    <option value="twfivepoints">25</option>
+                    <option value="thirtypoints">30</option>
+                </select>
                 <p id="orientacao">Use os botões para marcar a pontuação vitoriosa:</p>
             </section>
             <section id="jogadores">

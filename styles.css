@@ -8,6 +8,10 @@ main{
     font-family: "Macondo", cursive;
 }
 
+#namemagic{
+    font-style: italic;
+}
+
 h1{
     margin: 0 0 1px 0;
 }
@@ -51,9 +55,13 @@ label, #orientacao{
     font-weight: bold;
 }
 
-input{
+#orientacao{
+    margin-top: 40px;
+}
+
+#pontuacao{
     border-radius: 15px;
-    width: 75px;
+    width: 55px;
     height: 30px;
     font-size: 25px;
     text-align: center;
