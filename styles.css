@@ -56,7 +56,7 @@ label, #orientacao{
 }
 
 #orientacao{
-    margin-top: 40px;
+    margin-top: 70px;
 }
 
 #pontuacao{
@@ -69,7 +69,7 @@ label, #orientacao{
     font-weight: bold;
 }
 
-#jogador1, #jogador2, #restart{
+#jogador1, #jogador2, #reset{
     width: 33.3%;
     height: 50px;
     font-family: "Macondo", cursive;
@@ -88,11 +88,16 @@ label, #orientacao{
     background-color: blue;
 }
 
-#restart{
+#reset{
     background-color: red;
 }
 
 footer{
     margin-top: 50px;
     text-align: center;
+    font-weight: bold;
+}
+
+footer a{
+    text-decoration: none;
 }
