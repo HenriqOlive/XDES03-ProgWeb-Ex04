@@ -1,3 +1,7 @@
+/*Atividade 04 - DOM / XDES03
+Henrique Pereira de Oliveira - 2020009348*/
+
+
 //Parte relacionada ao funcionamento dos botões
 //Selecionando os botões de ação
 const btnJogadorUm = document.querySelector('#jogador1');
